@@ -162,7 +162,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 				$('#random').on({
 			     'click': function(){
-						 	 imgn = Math.round((Math.random()*9)+1)
+						 	 imgn = Math.floor((Math.random()*9)+1)
 							 imgn_path = "/static/img/"+imgn+".jpg"
 			         $('#dynamic_img').attr('src',imgn_path);
 							 $("#descripcion").text("El gato doméstico​​ (Felis silvestris catus), llamado simplemente gato, minino,​ michino,​ micho,​ mizo,​ miz,​ morroño​ o morrongo​, entre otros nombres coloquiales, es un mamífero carnívoro de la familia Felidae. Es una subespecie domesticada por la convivencia con el ser humano.")
